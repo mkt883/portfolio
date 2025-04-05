@@ -1,0 +1,309 @@
+/*              SIDE BAR STYLING               */
+
+#side-bar{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #fff; /* Black */
+    border-right: solid 1px #11111120;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+#logo{
+    width: 100%;
+    padding: 5px;
+    transition: ease 2s;
+}
+#logo:hover{
+    transform: scale(1.05);
+}
+#side-bar-text{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans';
+    /* padding: 10px; */
+    padding-left: 30px;
+}
+#side-bar-text > a{
+    text-decoration: none;
+    color: #111;
+    opacity: 50%;
+    transition: .2s;
+}
+#side-bar-text > a:hover{
+    text-decoration: none;
+    color: #111;
+    opacity: 75%;
+}
+
+#socials{
+    padding-left: 30px;
+    /* padding-top: 20px; */
+    padding-bottom: 50px;
+}
+.social-icon{
+    padding-right: 5px;
+    opacity: 20%;
+    transition: .2s;
+}
+.social-icon:hover{
+    /* padding-right: 5px; */
+    opacity: 50%;
+}
+
+/*              MAIN BODY STYLING               */
+
+#main{
+  width: 100%;
+  background: #fff;
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  font-family: 'Arial';
+}
+#main-info-pages{
+    text-align: left;
+    width: 80%;
+    background: #fff;
+    margin-left: 320px;
+    margin-right: 320px;
+    margin-top: 50px;
+    padding: 0px 10px;
+  
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+  
+    font-family: 'Gill Sans';
+
+    animation: fadeIn ease 2s;
+
+}
+#main-info-pages > h1 {
+    font-family: 'theSignature';
+    font-size: 60px;
+}
+
+.main-body-post{
+    height: 100%;
+    border-radius: 35px;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.082));
+    padding: 20px;
+    max-width: 1000px;
+    transition: 0.4s;
+    object-fit: contain;    
+    cursor: pointer;
+
+    color:rgba(0, 0, 0, 0.25);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    text-align: right;
+
+    animation: fadeIn ease 2s;
+}
+.main-body-post:hover{
+    transform: scale(1.02);
+}
+.main-body-post > p{
+    padding-right: 25px;
+}
+
+.border-curve{
+    height: 100%;
+    border-radius: 35px;
+    max-width: 1000px;
+}
+
+
+/*          POP UP STYLING            */
+#pop-up-bg{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+
+    justify-content: center;
+    align-items: center;
+
+    animation: fadeIn ease 0.5s;
+
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;};
+}
+
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;};
+}
+
+.pop-up{
+    height: 600px;
+    width: 780px;
+
+    background: white;
+    padding: 20px 40px;
+    border-radius: 25px;
+    font-family: sans-serif;
+    filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.082));
+
+    overflow-y: scroll;
+    font-family: 'Gill Sans';
+}
+
+.top-bot-borders{
+    border-top: solid rgb(208, 208, 208);
+    /* border-bottom: solid rgb(208, 208, 208); */
+    padding: 30px 30px 30px 0;
+    animation: fadeIn ease 2.5s;
+    /* font-family: 'Gill Sans'; */
+}
+
+/*          ABOUT PAGE                */
+
+.about-text-cont{
+    display: block;
+    height: auto;
+    width: 500px;
+    border-top: solid rgb(208, 208, 208);
+    /* border-bottom: solid rgb(208, 208, 208); */
+    padding: 30px;
+    animation: fadeIn ease 2.5s;
+    font-style: italic;
+}
+
+.xp-cont-cont{
+    display: flex;
+    /* flex-direction: auto; */
+    /* border-top: solid rgb(208, 208, 208);
+    border-bottom: solid rgb(208, 208, 208); */
+    min-width: 500px;
+    height: auto;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* padding: 30px; */
+}
+
+.xp-cont{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.xp-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #11111180;
+    animation: fadeIn ease 3s;
+    transition: .2s;
+    
+    /* padding-right: 20px; */
+}
+.xp-text > img{
+    max-height: 25px;
+    max-width: 25px;
+    padding: 5px 12px;
+}
+.xp-text:hover{
+    transform: scale(1.04);
+}
+
+/*          CONTACT           */
+#contact-button{
+    border: none;
+    margin-left: 30px;
+    margin-top: -10px;
+    background: #111;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-family: 'Gill Sans'; 
+    font-size: 15px;
+
+    transition: 0.3s;
+}
+#contact-button:hover{
+    cursor: pointer;
+    background: #ffcf00;
+    color: black;
+}
+#contact-button:active{
+    cursor: wait;
+    background: #ffefaa;
+    color: black;
+}
+
+
+/*          MISC.           */
+
+#gradientTopBot{
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 2;
+    pointer-events: none;
+    /* background: rgb(255,255,255); */
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 5%, rgba(255,255,255,0) 95%, rgba(255,255,255,1) 100%);
+}
+
+.centerImg{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerImg > img{
+    max-height: 500px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  #side-bar {padding-top: 15px;}
+}
+
+@font-face {
+    font-family: theSignature;
+    src: url(fonts/thesignature/Thesignature.ttf);
+}
+
+footer {
+    border-top: solid #11111110;
+/* fix to bottom of page */
+    width: 100%;
+    padding: 20px;
+    padding-left: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: #11111120;
+    /* position: absolute; */
+    bottom: 0;
+}
+/* height: 50px; color: #111; position: absolute; */
+
+a {
+color: #ffcf00;
+}
+a:active {
+    color: #ffcf00;
+    }
+a:visited {
+    color: #00aaff;
+}

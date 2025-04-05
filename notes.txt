@@ -1,0 +1,11 @@
+ POP UP FORMATTING:
+ 
+ <div id="pop-up-bg" onclick="closePopUp()">
+            <div class="pop-up">
+                <!-- × align top right -->
+                <h1>Title</h1>
+                <!-- <img src=""> -->
+                <!-- <video controls src=""> -->
+                <p>Info</p>
+            </div>
+        </div>

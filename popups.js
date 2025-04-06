@@ -41,7 +41,7 @@ function ktok(){
     
     popUp.innerHTML =  `
     <h1>Kaunos Tomb of Kings:</h1>
-        <video controls loop autoplay src="images/posts/vp/MA2807_KaunosTombOfKings.mp4" width="800px"></video>
+        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/MA2807_KaunosTombOfKings.mp4" width="800px"></video>
         <br><br>
         <strong>Using:</strong> <em>Unreal Engine, DaVinci Resolve</em><br><br>
         <div class="top-bot-borders">
@@ -52,21 +52,6 @@ function ktok(){
         </div>
     `;
 
-    /*
-    What To include:
-        
-        What is the project?
-        What was my role?
-        Programs used?
-
-    */
-
-    // OR
-
-    // popUp.createElement("h1");
-    // popUp.createElement("video").setAttribute("")
-    // popUp.createElement("p").setAttribute("This is...")
-
 }
 
 function battleland(){
@@ -75,7 +60,7 @@ function battleland(){
     
     popUp.innerHTML =  `
     <h1>BATTLELAND:</h1>
-        <video controls loop autoplay src="images/posts/vp/BATTLELAND showcase video.mp4" width="800px"></video>
+        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/BATTLELAND showcase video.mp4" width="800px"></video>
         <br><br>
         <strong>Using:</strong> <em>Unreal Engine, DaVinci Resolve</em><br><br>
         <div class="top-bot-borders">
@@ -152,7 +137,7 @@ function stc(){
     
     popUp.innerHTML =  `
     <h1>Save The City:</h1>
-        <video controls loop autoplay src="images/posts/games/stc.mp4" width="800px"></video>
+        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/stc.mp4" width="800px"></video>
         <br><br>
         <strong>Using:</strong> <em>Unity, Photoshop</em><br><br>
         <div class="top-bot-borders">
@@ -168,7 +153,7 @@ function odileOddete(){
     
     popUp.innerHTML =  `
     <h1>Odile & Odette:</h1>
-        <video controls loop autoplay src="images/posts/games/OdileOdette Game showcase.mp4" width="800px"></video>
+        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/OdileOdette Game showcase.mp4" width="800px"></video>
         <br><br>
         <strong>Using:</strong> <em>Unity, Clip Studio Paint, Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
@@ -185,7 +170,7 @@ function quickdraw(){
     
     popUp.innerHTML =  `
     <h1>Quickdraw:</h1>
-        <video controls loop autoplay src="images/posts/games/QUICKDRAW SHOWCASE.mp4" width="800px"></video>
+        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/QUICKDRAW SHOWCASE.mp4" width="800px"></video>
         <br><br>
         <strong>Using:</strong> <em>JavaScript (p5.js), Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
@@ -202,7 +187,7 @@ function umbrellaWarrior(){
     
     popUp.innerHTML =  `
     <h1>Umbrella Warrior:</h1>
-        <video controls loop autoplay src="images/posts/games/UMBRELLA-WARRIOR-showcase-video.mp4" width="800px"></video>
+        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/UMBRELLA-WARRIOR-showcase-video.mp4" width="800px"></video>
         <br><br>
         <strong>Using:</strong> <em>JavaScript (p5.js), Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
@@ -221,7 +206,7 @@ function waterBend(){
     
     popUp.innerHTML =  `
     <h1>Water Bending my Drink:</h1>
-        <video controls loop autoplay src="images/posts/videos/Water bending my drink.mp4" width="800px"></video>
+        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Water bending my drink.mp4" width="800px"></video>
         <br><br>
         <strong>Using:</strong> <em>After Effects, Premiere Pro</em><br><br>
         <div class="top-bot-borders">
@@ -239,7 +224,7 @@ function rasenganCatch(){
     
     popUp.innerHTML =  `
     <h1>Rasengan Catch with Shadow Clone:</h1>
-        <video controls loop autoplay src="images/posts/videos/Rasengan Catch with Shadow Clone.mp4" width="800px"></video>
+        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Rasengan Catch with Shadow Clone.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>After Effects, Premiere Pro</em><br><br>
         <div class="top-bot-borders">
             This was a personal project during lockdown where I was teaching myself After Effects and Premiere Pro<br><br>
@@ -256,7 +241,7 @@ function roomTornado(){
     
     popUp.innerHTML =  `
     <h1>Tornado in my room:</h1>
-        <video controls loop autoplay src="images/posts/videos/Tornado in room.mp4" width="800px"></video>
+        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Tornado in room.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>After Effects, DaVinci Resolve</em><br><br>
         <div class="top-bot-borders">
             This was another personal project during lockdown<br><br>
@@ -273,7 +258,7 @@ function tenetPencil(){
     
     popUp.innerHTML =  `
     <h1>Tenet Pencil:</h1>
-        <video controls loop autoplay src="images/posts/videos/Tenet pencil.mp4" width="800px"></video>
+        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Tenet pencil.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>DaVinci Resolve, Blender</em><br><br>
         <div class="top-bot-borders">
             Another personal project during lockdown<br><br>
@@ -291,7 +276,7 @@ function mobileControl(){
     
     popUp.innerHTML =  `
     <h1>Mobile Control:</h1>
-        <video controls loop autoplay src="images/posts/misc/mobileControlProject.mov" width="800px"></video>
+        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/misc/mobileControlProject.mov" width="800px"></video>
         <br><br><strong>Using:</strong> <em>HTML, CSS, JavaScript</em><br><br>
         <div class="top-bot-borders">
             <em>Please experience this project fully <a target="_blank" href="https://mkt883.github.io/ma2013-mobile-control/">here</a>.</em>

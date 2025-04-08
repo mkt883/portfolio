@@ -33,15 +33,12 @@ function timedClosePopUp(){
 // vp videos
 function ktok(){
     openPopUp();
-    /*
-    
-    APPEND ELEMENTS (title, video, explanation) */
     
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
     <h1>Kaunos Tomb of Kings:</h1>
-        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/MA2807_KaunosTombOfKings.mp4" width="800px"></video>
+        <video controls loop autoplay aria-label="A video showcasing the Kaunos Tomb of Kings in Turkey recreated in Unreal Engine 5" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/MA2807_KaunosTombOfKings.mp4" width="800px"></video>
         <br><br>
         <strong>Using:</strong> <em>Unreal Engine, DaVinci Resolve</em><br><br>
         <div class="top-bot-borders">
@@ -60,7 +57,7 @@ function battleland(){
     
     popUp.innerHTML =  `
     <h1>BATTLELAND:</h1>
-        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/BATTLELAND showcase video.mp4" width="800px"></video>
+        <video controls loop autoplay aria-label="A video showcasing an supernatural war-torn, abandoned island created in Unreal Engine 5" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/BATTLELAND showcase video.mp4" width="800px"></video>
         <br><br>
         <strong>Using:</strong> <em>Unreal Engine, DaVinci Resolve</em><br><br>
         <div class="top-bot-borders">
@@ -81,7 +78,7 @@ function questOfPatrick(){
     popUp.innerHTML =  `
     <h1>The Quest of Patrick Star:</h1>
         <div class="centerImg">
-            <img src="images/posts/graphics/TheQuestofPatrickStar.png">
+            <img alt="An album cover of Patrick Star from SpongeBob falling through a galaxy" src="images/posts/graphics/TheQuestofPatrickStar.png">
         </div>
         <br>
         <strong>Using:</strong> <em>Clip Studio Paint, Photoshop/Photopea</em><br><br>
@@ -100,7 +97,7 @@ function mayhemTeaser(){
     popUp.innerHTML =  `
     <h1>MAYHEM Teaser:</h1>
         <div class="centerImg">
-            <img src="images/posts/graphics/Teaser poster fin media.jpeg">
+            <img alt="A movie teaser poster in black and white showing a hand grabbing a red planet Earth" src="images/posts/graphics/Teaser poster fin media.jpeg">
         </div>
         <br><br>
         <strong>Using:</strong> <em>Photoshop/Photopea</em><br><br>
@@ -119,7 +116,7 @@ function fairlady(){
     popUp.innerHTML =  `
     <h1>Fairlady:</h1>
         <div class="centerImg">
-            <img src="images/posts/graphics/FairladyBackGraphic.png">
+            <img alt="A t-shirt graphic print showing a woman leaning on a nissan fairlady 350z in a garage" src="images/posts/graphics/FairladyBackGraphic.png">
         </div>
         <br>
         <strong>Using:</strong> <em>Photoshop/Photopea</em><br><br>
@@ -137,7 +134,7 @@ function stc(){
     
     popUp.innerHTML =  `
     <h1>Save The City:</h1>
-        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/stc.mp4" width="800px"></video>
+        <video controls loop autoplay aria-label="A sidescroller/platformer game showcase where the protagonist is jumping across a sewer themed level" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/stc.mp4" width="800px"></video>
         <br><br>
         <strong>Using:</strong> <em>Unity, Photoshop</em><br><br>
         <div class="top-bot-borders">
@@ -153,7 +150,7 @@ function odileOddete(){
     
     popUp.innerHTML =  `
     <h1>Odile & Odette:</h1>
-        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/OdileOdette Game showcase.mp4" width="800px"></video>
+        <video controls loop autoplay aria-label="A rhythm game showcase inspired by Yinka Shonibare's Odile Oddete pieces" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/OdileOdette Game showcase.mp4" width="800px"></video>
         <br><br>
         <strong>Using:</strong> <em>Unity, Clip Studio Paint, Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
@@ -170,7 +167,7 @@ function quickdraw(){
     
     popUp.innerHTML =  `
     <h1>Quickdraw:</h1>
-        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/QUICKDRAW SHOWCASE.mp4" width="800px"></video>
+        <video controls loop autoplay aria-label="A game called 'QUICKDRAW' showcasing a cowboy standoff" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/QUICKDRAW SHOWCASE.mp4" width="800px"></video>
         <br><br>
         <strong>Using:</strong> <em>JavaScript (p5.js), Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
@@ -187,7 +184,7 @@ function umbrellaWarrior(){
     
     popUp.innerHTML =  `
     <h1>Umbrella Warrior:</h1>
-        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/UMBRELLA-WARRIOR-showcase-video.mp4" width="800px"></video>
+        <video controls loop autoplay aria-label="A video showcase of a ninja running around various levels defeating floating blue monsters" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/UMBRELLA-WARRIOR-showcase-video.mp4" width="800px"></video>
         <br><br>
         <strong>Using:</strong> <em>JavaScript (p5.js), Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
@@ -206,7 +203,7 @@ function waterBend(){
     
     popUp.innerHTML =  `
     <h1>Water Bending my Drink:</h1>
-        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Water bending my drink.mp4" width="800px"></video>
+        <video controls loop autoplay aria-label="A VFX video of myself manipulating water like in Avatar the Last Airbender" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Water bending my drink.mp4" width="800px"></video>
         <br><br>
         <strong>Using:</strong> <em>After Effects, Premiere Pro</em><br><br>
         <div class="top-bot-borders">
@@ -224,7 +221,7 @@ function rasenganCatch(){
     
     popUp.innerHTML =  `
     <h1>Rasengan Catch with Shadow Clone:</h1>
-        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Rasengan Catch with Shadow Clone.mp4" width="800px"></video>
+        <video controls loop autoplay aria-label="A VFX video inspired by the anime Naruto where I play catch with my clone" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Rasengan Catch with Shadow Clone.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>After Effects, Premiere Pro</em><br><br>
         <div class="top-bot-borders">
             This was a personal project during lockdown where I was teaching myself After Effects and Premiere Pro<br><br>
@@ -241,7 +238,7 @@ function roomTornado(){
     
     popUp.innerHTML =  `
     <h1>Tornado in my room:</h1>
-        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Tornado in room.mp4" width="800px"></video>
+        <video controls loop autoplay aria-label="A VFX video of myslf creating a tornado in my room" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Tornado in room.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>After Effects, DaVinci Resolve</em><br><br>
         <div class="top-bot-borders">
             This was another personal project during lockdown<br><br>
@@ -258,7 +255,7 @@ function tenetPencil(){
     
     popUp.innerHTML =  `
     <h1>Tenet Pencil:</h1>
-        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Tenet pencil.mp4" width="800px"></video>
+        <video controls loop autoplay aria-label="A VFX video of a pencil moving in reverse, abstract directions like what is seen in the film Tenet" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Tenet pencil.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>DaVinci Resolve, Blender</em><br><br>
         <div class="top-bot-borders">
             Another personal project during lockdown<br><br>
@@ -276,7 +273,7 @@ function mobileControl(){
     
     popUp.innerHTML =  `
     <h1>Mobile Control:</h1>
-        <video controls loop autoplay src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/misc/mobileControlProject.mov" width="800px"></video>
+        <video controls loop autoplay aria-label="A code project showcase of myself going through the apps of a virtual phone I created using HTML, CSS and JavaScript" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/misc/mobileControlProject.mov" width="800px"></video>
         <br><br><strong>Using:</strong> <em>HTML, CSS, JavaScript</em><br><br>
         <div class="top-bot-borders">
             <em>Please experience this project fully <a target="_blank" href="https://mkt883.github.io/ma2013-mobile-control/">here</a>.</em>

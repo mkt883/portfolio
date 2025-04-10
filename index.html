@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="images/logo/faviconLogo.png">
+        <script src="filterDropdown.js"></script>
         <script src="popups.js"></script>
         <title>Mark's Portfolio</title>
     </head>
@@ -22,16 +23,19 @@
             </div>
         </div>
         <div id="main">
-            <!-- <div class="filter">
-                <div class="dropdown-content">
-                    <a href="#">All</a>
-                    <a href="#">Virtual Production</a>
-                    <a href="#">Graphic Design</a>
-                    <a href="#">Games</a>
-                    <a href="#">Video</a>
-                    <a href="#">Misc.</a>
-                </div>
-            </div> -->
+            <div id="top-bar">
+                <div class="filter">
+                    <button onclick="dropDown()" class="dropbtn">≡</button>
+                    <div id="worksFilter" class="filter-content">
+                        <a onclick="allContent()">All</a>
+                        <a onclick="vpContent()">Virtual Production</a>
+                        <a onclick="gdContent()">Graphic Design</a>
+                        <a onclick="gamContent()">Games</a>
+                        <a onclick="vidContent()">Video</a>
+                        <a onclick="miscContent()">Misc.</a>
+                    </div>
+                  </div>
+            </div>
 
             <div class="main-body-post"><video onclick="ktok()" class="main-body-post vp" loop autoplay muted aria-label="A video showcasing the Kaunos Tomb of Kings in Turkey recreated in Unreal Engine 5" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/MA2807_KaunosTombOfKings.mp4" width="800px"></video><p>Unreal Engine, DaVinci Resolve</p></div>
             <div class="main-body-post"><img onclick="questOfPatrick()" class="main-body-post gd" alt="An album cover of Patrick Star from SpongeBob falling through a galaxy" src="images/posts/graphics/TheQuestofPatrickStar.png" width="300px"><p>Clip Studio Paint, Photoshop/Photopea</p></div>

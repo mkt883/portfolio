@@ -56,6 +56,7 @@ function allContent(){
 <div class="main-body-post"><video onclick="tenetPencil()" loop autoplay muted class="main-body-post vfx" aria-label="A VFX video of a pencil moving in reverse, abstract directions like what is seen in the film Tenet" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Tenet pencil.mp4" width="450px"></video><p>DaVinci Resolve, Blender</p></div>
 <div class="main-body-post"><video onclick="mobileControl()" loop autoplay muted class="main-body-post misc" aria-label="A code project showcase of myself going through the apps of a virtual phone I created using HTML, CSS and JavaScript" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/misc/mobileControlProj.mp4" width="550px"></video><p>HTML, CSS, JavaScript</p></div>
 `
+document.querySelector('footer').style = 'margin-top: auto;'
 }
 function vpContent(){
   let main = document.getElementById("main");
@@ -75,6 +76,8 @@ function vpContent(){
 
 <div class="main-body-post"><video onclick="ktok()" class="main-body-post vp" loop autoplay muted aria-label="A video showcasing the Kaunos Tomb of Kings in Turkey recreated in Unreal Engine 5" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/MA2807_KaunosTombOfKings.mp4" width="800px"></video><p>Unreal Engine, DaVinci Resolve</p></div>
 <div class="main-body-post"><video onclick="battleland()" class="main-body-post vp" loop autoplay muted aria-label="A video showcasing an supernatural war-torn, abandoned island created in Unreal Engine 5" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/BATTLELAND showcase video.mp4" width="700px"></video><p>Unreal Engine, DaVinci Resolve</p></div>`
+
+document.querySelector('footer').style = 'margin-top: auto;'
 }
 function gdContent(){
   let main = document.getElementById("main");
@@ -97,6 +100,7 @@ function gdContent(){
 <div class="main-body-post"><img onclick="mayhemTeaser()" class="main-body-post gd" alt="A movie teaser poster in black and white showing a hand grabbing a red planet Earth" src="images/posts/graphics/Teaser poster fin media.jpeg" width="400px"><p>Photoshop/Photopea</p></div>
 <div class="main-body-post"><img onclick="fairlady()" class="main-body-post gd" alt="A t-shirt graphic print showing a woman leaning on a nissan fairlady 350z in a garage" src="images/posts/graphics/FairladyBackGraphic.png" width="400px"><p>Photoshop/Photopea</p></div>
 `
+document.querySelector('footer').style = 'margin-top: auto;'
 }
 function gamContent(){
   let main = document.getElementById("main");
@@ -118,6 +122,7 @@ function gamContent(){
 <div class="main-body-post"><video onclick="odileOddete()" loop autoplay muted class="main-body-post game" aria-label="A rhythm game showcase inspired by Yinka Shonibare's Odile Oddete pieces" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/OdileOdette Game showcase.mp4" width="550px"></video><p>Unity, Clip Studio Paint, Photoshop/Photopea</p></div>
 <div class="main-body-post"><video onclick="umbrellaWarrior()" loop autoplay muted aria-label="A video showcase of a ninja running around various levels defeating floating blue monsters" class="main-body-post game" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/UMBRELLA-WARRIOR-showcase-video.mp4" width="500px"></video><p>JavaScript (p5.js), Photoshop/Photopea</p></div>
 `
+document.querySelector('footer').style = 'margin-top: auto;'
 }
 
 function vidContent(){
@@ -141,6 +146,7 @@ function vidContent(){
 <div class="main-body-post"><video onclick="roomTornado()" loop autoplay muted class="main-body-post vfx" aria-label="A VFX video of myslf creating a tornado in my room" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Tornado in room.mp4" width="500px"></video><p>After Effects, DaVinci Resolve</p></div>
 <div class="main-body-post"><video onclick="tenetPencil()" loop autoplay muted class="main-body-post vfx" aria-label="A VFX video of a pencil moving in reverse, abstract directions like what is seen in the film Tenet" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Tenet pencil.mp4" width="450px"></video><p>DaVinci Resolve, Blender</p></div>
 `
+document.querySelector('footer').style = 'margin-top: auto;'
 }
 function miscContent(){
   let main = document.getElementById("main");

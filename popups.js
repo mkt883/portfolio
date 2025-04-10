@@ -273,7 +273,7 @@ function mobileControl(){
     
     popUp.innerHTML =  `
     <h1>Mobile Control:</h1>
-        <video controls loop autoplay aria-label="A code project showcase of myself going through the apps of a virtual phone I created using HTML, CSS and JavaScript" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/misc/mobileControlProject.mov" width="800px"></video>
+        <video controls loop autoplay aria-label="A code project showcase of myself going through the apps of a virtual phone I created using HTML, CSS and JavaScript" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/misc/mobileControlProj.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>HTML, CSS, JavaScript</em><br><br>
         <div class="top-bot-borders">
             <em>Please experience this project fully <a target="_blank" href="https://mkt883.github.io/ma2013-mobile-control/">here</a>.</em>

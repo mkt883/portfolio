@@ -160,4 +160,6 @@ function miscContent(){
 </div>
 <div class="main-body-post"><video onclick="mobileControl()" loop autoplay muted class="main-body-post misc" aria-label="A code project showcase of myself going through the apps of a virtual phone I created using HTML, CSS and JavaScript" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/misc/mobileControlProj.mp4" width="550px"></video><p>HTML, CSS, JavaScript</p></div>
 `
+
+  document.querySelector('footer').style = 'position: absolute'
 }

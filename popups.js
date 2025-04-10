@@ -11,7 +11,6 @@ function openPopUp(){
     
     console.log("Pop up open!")
 }
-
 function closePopUp(){
     console.log("Pop up closed")
     let popUp = document.getElementById("pop-up-bg");
@@ -19,16 +18,13 @@ function closePopUp(){
 
     return null;
 }
-
 function timedClosePopUp(){
     let popUp = document.getElementById("pop-up-bg")
     popUp.style.animation = "fadeOut ease 0.5s";
     setTimeout(closePopUp, 500);
 }
 
-
 // Individual posts
-
 
 // vp videos
 function ktok(){
@@ -50,7 +46,6 @@ function ktok(){
     `;
 
 }
-
 function battleland(){
     openPopUp();
     let popUp = document.getElementById("pop-up-bg").firstChild;
@@ -89,7 +84,6 @@ function questOfPatrick(){
         </div>
     `;
 }
-
 function mayhemTeaser(){
     openPopUp();
     let popUp = document.getElementById("pop-up-bg").firstChild;
@@ -108,7 +102,6 @@ function mayhemTeaser(){
         
     `;
 }
-
 function fairlady(){
     openPopUp();
     let popUp = document.getElementById("pop-up-bg").firstChild;
@@ -144,7 +137,6 @@ function stc(){
         </div>
     `;
 }
-
 function odileOddete(){
     openPopUp();
     let popUp = document.getElementById("pop-up-bg").firstChild;
@@ -161,7 +153,6 @@ function odileOddete(){
         </div>
     `;
 }
-
 function quickdraw(){
     openPopUp();
     let popUp = document.getElementById("pop-up-bg").firstChild;
@@ -178,7 +169,6 @@ function quickdraw(){
         </div>
     `;
 }
-
 function umbrellaWarrior(){
     openPopUp();
     let popUp = document.getElementById("pop-up-bg").firstChild;
@@ -215,7 +205,6 @@ function waterBend(){
         </div>
     `;
 }
-
 function rasenganCatch(){
     openPopUp();
     let popUp = document.getElementById("pop-up-bg").firstChild;
@@ -232,7 +221,6 @@ function rasenganCatch(){
         </div>
     `;
 }
-
 function roomTornado(){
     openPopUp();
     let popUp = document.getElementById("pop-up-bg").firstChild;
@@ -249,7 +237,6 @@ function roomTornado(){
         </div>
     `;
 }
-
 function tenetPencil(){
     openPopUp();
     let popUp = document.getElementById("pop-up-bg").firstChild;

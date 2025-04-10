@@ -156,6 +156,11 @@
     font-family: 'Gill Sans', sans-serif;
 }
 
+.top-bot-borders{
+    border-top: solid 1.5px #11111120;
+    padding-top: 20px;
+}
+
 /*          FILTER STYLING            */
   #top-bar{
     width: 90vw;

@@ -102,7 +102,7 @@ function mayhemTeaser(){
         <br><br>
         <strong>Using:</strong> <em>Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
-            This was for my A-Level Media Studies coursework where <strong>I achieved 58/60<strong>.<br><br>
+            This was for my A-Level Media Studies coursework where <strong>I achieved 58/60</strong>.<br><br>
             All images used (apart from brand icons) had to be generated and taken by ourselves.<br><br>
             To create certain effects such as in the background, I used generative features on Photoshop and Photopea.
         </div>

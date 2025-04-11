@@ -85,7 +85,7 @@ function gdContent(){
 </div>
 <div class="main-body-post"><img onclick="questOfPatrick()" class="main-body-post gd" alt="An album cover of Patrick Star from SpongeBob falling through a galaxy" src="images/posts/graphics/TheQuestofPatrickStar.png" width="300px"><p>Clip Studio Paint, Photoshop/Photopea</p></div>
 <div class="main-body-post"><img onclick="mayhemTeaser()" class="main-body-post gd" alt="A movie teaser poster in black and white showing a hand grabbing a red planet Earth" src="images/posts/graphics/Teaser poster fin media.jpeg" width="400px"><p>Photoshop/Photopea</p></div>
-<div class="main-body-post"><img onclick="fairlady()" class="main-body-post gd" alt="A t-shirt graphic print showing a woman leaning on a nissan fairlady 350z in a garage" src="images/posts/graphics/FairladyBackGraphic.png" width="400px"><p>Photoshop/Photopea</p></div>
+<div class="main-body-post"><img onclick="fairlady()" class="main-body-post gd" alt="A t-shirt graphic print showing a woman leaning on a nissan fairlady 350z in a garage" src="images/posts/graphics/fairlady_watermarked.jpg" width="400px"><p>Photoshop/Photopea</p></div>
 `
 document.querySelector('footer').style = 'margin-top: auto;'
 }

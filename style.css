@@ -174,8 +174,8 @@
 
   .dropbtn {
     position: fixed;
-    background-color: #ffffff;
-    color: #111;
+    background-color: #111111;
+    color: #fff;
     padding: 10px;
     font-size: 30px;
     border: none;
@@ -192,7 +192,7 @@
   }
   
   .dropbtn:hover, .dropbtn:focus {
-    background: #11111105;
+    background: #434343;
   }
   
   .filter {

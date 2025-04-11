@@ -122,11 +122,11 @@ function fairlady(){
         <br>
         <strong>Using:</strong> <em>Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
-            This was a t-shirt and hoodie design for <strong>ZocietyEU<strong>.<br>
-            <strong>You can buy:</strong><br><br>
-            T-Shirt: <a href="https://zocietyeu.com/products/fairlady-350z">here<a/><br>
-            Hoodie: <a href="https://zocietyeu.com/products/fairlady-350z-hoodie">here<a/><br><br>
-            I used Photoshop/Photopea to bring together AI generated images from <strong>Dall-E</strong> and <strong>Playground AI</strong>.<br><br>
+            This design was sold to print on t-shirts and hoodies for <strong>ZocietyEU</strong>.<br><br>
+            <strong>You can buy:</strong><br>
+            T-Shirt: <a href="https://zocietyeu.com/products/fairlady-350z">here</a><br>
+            Hoodie: <a href="https://zocietyeu.com/products/fairlady-350z-hoodie">here</a><br><br>
+            I used Photoshop/Photopea to bring together AI generated images from <strong>Dall-E</strong> and <strong>Playground AI</strong>.
         </div>
     `;
 }

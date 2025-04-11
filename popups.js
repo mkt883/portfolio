@@ -177,10 +177,11 @@ function quickdraw(){
         <br><br>
         <strong>Using:</strong> <em>JavaScript (p5.js), Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
-            <strong>I achieved a First</strong> for this project.
+            <strong>I achieved a First</strong> for this project.<br><br>
             This was a game project I had to do for my university course.<br><br>
             Improved my knowledge on Timeout functions and improved my confidence in coding a game from scratch.<br><br>
             I used Photoshop/Photopea to create all the artwork for the game.<br><br>
+            I also created the music using an online beat maker.<br><br>
             The game had to be coded using the JavaScript library: <em>p5.js</em>.
         </div>
     `;

@@ -39,13 +39,12 @@ function ktok(){
         <strong>Using:</strong> <em>Unreal Engine, DaVinci Resolve</em><br><br>
         <div class="top-bot-borders">
             <strong>I achieved a First</strong> for this project.
-            This was my term 1 final project I made for university for my <strong>Virtual Production</strong> module.<br><br>
-            I had to recreate a place that I'd been to using Unreal Engine, so I picked the Dalyan Tomb of Kings in Turkey.<br><br>
-            This project required me to use my landscaping skills in combination with ultra dynamic sky and megascans from Quixel Bridge (now FAB) to create the landscape.<br><br>
-            My knowledge on landscape texturing, foliage and optimisation (e.g. with LODs) improved here.<br><br>
-            I also achieved a better understanding of rendering and how the camera works in Unreal Engine.<br><br>
-            Blender was used for the tomb faces, in combination with layering some assets in Unreal.<br><br>
-            DaVinci Resolve was used to add in royalty free ambient sounds and cut the clips together.
+            Virtual production project<br><br>
+            Recreation of the <a href="https://www.villaplusturkey.com/blog/kaunos-tombs-of-the-kings" target="_blank">Kaunos Tomb of Kings in Dalyan Turkey</a>.<br><br>
+            Practicing optimisation, landscaping skills and foliage, use of ultra dynamic sky and Quixel Bridge (FAB) megascan assets.<br><br>
+            Also practicing use of cameras in Unreal.<br><br>
+            Blender used for the tomb faces.<br><br>
+            DaVinci Resolve used to for the sounds.
         </div>
     `;
 
@@ -60,12 +59,11 @@ function battleland(){
         <br><br>
         <strong>Using:</strong> <em>Unreal Engine, DaVinci Resolve</em><br><br>
         <div class="top-bot-borders">
-            This was a smaller project I made for my university <strong>Virtual Production</strong> module.<br><br>
-            The brief was to create an island and I wanted to go for a fantastical look.<br><br>
-            I learnt about painting textures onto the landscape and using the experimental water plug-in.
-            All the assets were free from Quixel Bridge (now FAB) megascans, foliage was used to create the scattered weapons.<br><br>
-            Inspiration was taken from <em>One Piece</em>.<br><br>
-            DaVinci Resolve was used to add in royalty free ambient sounds and cut the clips together.
+            Virtual production island project<br><br>
+            Practicing texture painting, fantastical landscape design and using plug-ins.<br><br>
+            Using megascans from Quixel Bridge.<br><br>
+            DaVinci Resolve was used for the sounds.<br><br>
+            Inspired by <em>One Piece</em>.
         </div>
     `;
 }
@@ -85,7 +83,7 @@ function questOfPatrick(){
         <div class="top-bot-borders">
             This was a secret santa project for my friend.<br><br>
             This design was for an album cover and t-shirt back graphic.<br><br>
-            It was drawn by me in Clip Studio Paint using my <strong>Huion drawing tablet</strong>.<br><br>
+            Drawn by me in Clip Studio Paint using a<strong>Huion drawing tablet</strong>.<br><br>
             Photoshop/Photopea was used for manipulating the text.
         </div>
     `;
@@ -102,9 +100,8 @@ function mayhemTeaser(){
         <br><br>
         <strong>Using:</strong> <em>Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
-            This was for my A-Level Media Studies coursework where <strong>I achieved 58/60</strong>.<br><br>
-            All images used (apart from brand icons) had to be generated and taken by ourselves.<br><br>
-            To create certain effects such as in the background, I used generative features on Photoshop and Photopea.
+            All images used (apart from brand icons) had to be generated and taken myself.<br><br>
+            Generative features in Photoshop and Photopea used to create effects, such as in the background.
         </div>
         
     `;
@@ -122,11 +119,11 @@ function fairlady(){
         <br>
         <strong>Using:</strong> <em>Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
-            This design was sold to print on t-shirts and hoodies for <strong>ZocietyEU</strong>.<br><br>
-            <strong>You can buy:</strong><br>
+            A clothing graphic sold to<strong>ZocietyEU</strong>.<br><br>
+            <strong>You can buy here:</strong><br>
             T-Shirt: <a href="https://zocietyeu.com/products/fairlady-350z" target="_blank">here</a><br>
             Hoodie: <a href="https://zocietyeu.com/products/fairlady-350z-hoodie" target="_blank">here</a><br><br>
-            I used Photoshop/Photopea to bring together AI generated images from <strong>Dall-E</strong> and <strong>Playground AI</strong>.
+            Photoshop/Photopea used to bring together AI generated images from <strong>Dall-E</strong> and <strong>Playground AI</strong>.
         </div>
     `;
 }
@@ -142,10 +139,10 @@ function stc(){
         <br><br>
         <strong>Using:</strong> <em>Unity, Photoshop</em><br><br>
         <div class="top-bot-borders">
-            This was a personal game project.<br><br>
-            I taught myself how to navigate and use Unity and code in C#.<br><br>
-            Tile creation, mapping and level design was another important process I'd gained knowledge about here.<br><br>
-            I used Photoshop to create all the artwork for the game.
+            Personal platformer game project.<br><br>
+            Practcing Unity game engine and C#.<br><br>
+            Also working on tilemap creation and level design.<br><br>
+            Photoshop used to create the visual assets for the game.
         </div>
     `;
 }
@@ -159,11 +156,9 @@ function odileOddete(){
         <br><br>
         <strong>Using:</strong> <em>Unity, Clip Studio Paint, Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
-            This was a rhythm game practice project for my A-Level Art coursework.<br><br>
-            Here I took the opportunity to improve on my start menu design.<br><br>
-            Mapping the steps to the beat also improved my knowledge in level design.<br><br>
-            I used Clip Studio Paint to hand draw all of the artwork for the game using my <strong>Huion drawing tablet</strong>.<br><br>
-            It was inspired by <a href="https://africa.si.edu/exhibits/shonibare/odette.html">Yinka Shonibare's <em>Odile Odette</em> pieces.</a>
+            Rhythm game practice project.<br><br>
+            Clip Studio Paint used to draw all of the artwork for the game using digital Huion drawing tablet.<br><br>
+            Inspired by <a href="https://africa.si.edu/exhibits/shonibare/odette.html">Yinka Shonibare's <em>Odile Odette</em> pieces.</a>
         </div>
     `;
 }
@@ -177,12 +172,11 @@ function quickdraw(){
         <br><br>
         <strong>Using:</strong> <em>JavaScript (p5.js), Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
-            <strong>I achieved a First</strong> for this project.<br><br>
-            This was a game project I had to do for my university course.<br><br>
-            Improved my knowledge on Timeout functions and improved my confidence in coding a game from scratch.<br><br>
-            I used Photoshop/Photopea to create all the artwork for the game.<br><br>
-            I also created the music using an online beat maker.<br><br>
-            The game had to be coded using the JavaScript library: <em>p5.js</em>.
+            Small game project<br><br>
+            Working on timeout functions and coding outside of a game engine.<br><br>
+            Photoshop/Photopea used to create all the artwork for the game.<br><br>
+            Music created using an online beat maker.<br><br>
+            Coded using the JavaScript library: <em>p5.js</em>.
         </div>
     `;
 }
@@ -196,10 +190,10 @@ function umbrellaWarrior(){
         <br><br>
         <strong>Using:</strong> <em>JavaScript (p5.js), Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
-            This was a group game project for my university course.<br><br>
-            <strong>My Role:</strong> Coding the player movement, combining everyones code together, designing the main character, enemy sprite and the 2nd level assets, as well as level design for all but the 3rd level.<br><br>
-            Further improved my ability in tile mapping and leading group coding work.<br><br>
-            I used Photoshop/Photopea to create all the artwork for the game.<br><br>
+            <strong>Group game project</strong> for university.<br><br>
+            <strong>My Role:</strong> Coding the player movement, combining everyones code, designing the main character, enemy sprite and the 2nd level assets, level design for all but the 3rd level.<br><br>
+            Practicing tile mapping and leading group coding work.<br><br>
+            Used Photoshop/Photopea to create all the artwork for the game.<br><br>
             The game had to be coded using the JavaScript library: <em>p5.js</em>.
         </div>
     `;
@@ -216,11 +210,11 @@ function waterBend(){
         <br><br>
         <strong>Using:</strong> <em>After Effects, Premiere Pro</em><br><br>
         <div class="top-bot-borders">
-            This was a personal experiment project during lockdown, where I was teaching myself After Effects and Premiere Pro.<br><br>
-            Practice with my knowledge of animation principles (e.g. squash and stretch) to make it as realistic as I could.<br><br>
-            Also taught me how to use work with After Effects e.g. creating the water object, particle systems and the mercury effect.
+            Personal experiment project during lockdown, to teach myself After Effects and Premiere Pro.<br><br>
+            Practice with my knowledge of animation principles.<br><br>
+            Exploring After Effects e.g. creating the water object, particle systems and the mercury effect.
             Premiere Pro was used to compile the sound.<br><br>
-            Inspired by <em>Avatar: the Last Airbender</em>.
+            Inspired by <a href="https://www.youtube.com/watch?v=qCUVwTcx7TE" target="_blank"><em>Avatar: the Last Airbender</em></a>.
         </div>
     `;
 }
@@ -234,7 +228,7 @@ function rasenganCatch(){
         <br><br><strong>Using:</strong> <em>After Effects, Premiere Pro</em><br><br>
         <div class="top-bot-borders">
             Another personal experiment project during lockdown.<br><br>
-            Creating <em>the rasengan</em> effect introduced me to particle systems and keyframing in After Effects.<br><br>
+            Creating <a href="https://youtu.be/vhrL7jRRcKM?si=VIEo3ezY9T2eVqwW" target="_blank"><em>the rasengan</em></a> effect introduced me to particle systems and keyframing in After Effects.<br><br>
             Premiere Pro was used to mask in my clone, green screen the smoke and compile the sound.<br><br>
             Inspired by <em>Naruto</em>.
         </div>
@@ -249,12 +243,11 @@ function roomTornado(){
         <video controls loop autoplay poster="images/thumbnails/trndo-thumbnail.png" aria-label="A VFX video of myslf creating a tornado in my room" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Tornado in room.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>After Effects, DaVinci Resolve</em><br><br>
         <div class="top-bot-borders">
-            This was another personal project during lockdown.<br><br>
-            After Effects was used to create the tornado and flame effects using particle systems.<br><br>
-            I also learn't about the lightning effect here.<br><br>
-            My masking and key framing ability was tested here in DaVinci Resolve, where I compiled different videos to show the tornado wind affecting the environment and sell the effect better.<br><br>
-            Also introduced my to the DaVinci Resolve <emProto</em> plug-in.
-            It was also used to put together the sounds.
+            Lockdown project.<br><br>
+            After Effects particle systems used to create the tornado and flame effects.<br><br>
+            Working with the lightning effect.<br><br>
+            Practicing masking and key framing ability in DaVinci Resolve to put together the background elements.<br><br>
+            Also using DaVinci Resolve <emProto</em> plug-in and put together the sounds.
         </div>
     `;
 }
@@ -267,10 +260,9 @@ function tenetPencil(){
         <video controls loop autoplay poster="images/thumbnails/tnt-thumbnail.png" aria-label="A VFX video of a pencil moving in reverse, abstract directions like what is seen in the film Tenet" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Tenet pencil.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>DaVinci Resolve, Blender</em><br><br>
         <div class="top-bot-borders">
-            Another personal project during lockdown.<br><br>
-            Introduced me to Blender animations, needed for the obscure pencil movements.<br><br>
-            DaVinci Resolve was used to put together the sound and further edit the video.<br><br>
-            It was also used to put together the sounds.
+            Another lockdown project.<br><br>
+            Introduced me to Blender animations.<br><br>
+            DaVinci Resolve used for the sound and to further edit the video.<br><br>
         </div>
     `;
 }
@@ -285,12 +277,10 @@ function mobileControl(){
         <video controls loop autoplay poster="images/thumbnails/mobile-thumbnail.png" aria-label="A code project showcase of myself going through the apps of a virtual phone I created using HTML, CSS and JavaScript" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/misc/mobileControlProj.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>HTML, CSS, JavaScript</em><br><br>
         <div class="top-bot-borders">
-            <em>Please experience this project fully <a target="_blank" href="https://mkt883.github.io/ma2013-mobile-control/">here</a>.</em>
-            <strong>I achieved an upper First</strong> for this project.<br><br>
-            This was a university project where we had to investigate different <em>interfaces</em>. I chose control.<br><br>
-            It was supposed to be a more artistic project, exploring how the phone controls in various ways<br><br>
-            My JavaScript confidence greatly improved here, understanding how to better utilise it for web development and future projects.<br><br>
-            This project also improved my understanding of mobile app design.
+            <em>To experience this project fully, please click <a target="_blank" href="https://mkt883.github.io/ma2013-mobile-control/">here</a>.</em>
+            Project investigating control as an interface and how the phone controls.<br><br>
+            I used this project to improve my JavaScript skills.<br><br>
+            Also practicing mobile app design.
         </div>
     `;
 }

@@ -38,8 +38,7 @@ function ktok(){
         <br><br>
         <strong>Using:</strong> <em>Unreal Engine, DaVinci Resolve</em><br><br>
         <div class="top-bot-borders">
-            <strong>I achieved a First</strong> for this project.
-            Virtual production project<br><br>
+            Virtual production project.<br><br>
             Recreation of the <a href="https://www.villaplusturkey.com/blog/kaunos-tombs-of-the-kings" target="_blank">Kaunos Tomb of Kings in Dalyan Turkey</a>.<br><br>
             Practicing optimisation, landscaping skills and foliage, use of ultra dynamic sky and Quixel Bridge (FAB) megascan assets.<br><br>
             Also practicing use of cameras in Unreal.<br><br>
@@ -59,7 +58,7 @@ function battleland(){
         <br><br>
         <strong>Using:</strong> <em>Unreal Engine, DaVinci Resolve</em><br><br>
         <div class="top-bot-borders">
-            Virtual production island project<br><br>
+            Virtual production island project.<br><br>
             Practicing texture painting, fantastical landscape design and using plug-ins.<br><br>
             Using megascans from Quixel Bridge.<br><br>
             DaVinci Resolve was used for the sounds.<br><br>
@@ -83,7 +82,7 @@ function questOfPatrick(){
         <div class="top-bot-borders">
             This was a secret santa project for my friend.<br><br>
             This design was for an album cover and t-shirt back graphic.<br><br>
-            Drawn by me in Clip Studio Paint using a<strong>Huion drawing tablet</strong>.<br><br>
+            Drawn by me in Clip Studio Paint using a <strong>Huion drawing tablet</strong>.<br><br>
             Photoshop/Photopea was used for manipulating the text.
         </div>
     `;
@@ -100,6 +99,7 @@ function mayhemTeaser(){
         <br><br>
         <strong>Using:</strong> <em>Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
+            Movie teaser poster practice.<br><br>
             All images used (apart from brand icons) had to be generated and taken myself.<br><br>
             Generative features in Photoshop and Photopea used to create effects, such as in the background.
         </div>
@@ -119,7 +119,7 @@ function fairlady(){
         <br>
         <strong>Using:</strong> <em>Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
-            A clothing graphic sold to<strong>ZocietyEU</strong>.<br><br>
+            A clothing graphic sold to <strong>ZocietyEU</strong>.<br><br>
             <strong>You can buy here:</strong><br>
             T-Shirt: <a href="https://zocietyeu.com/products/fairlady-350z" target="_blank">here</a><br>
             Hoodie: <a href="https://zocietyeu.com/products/fairlady-350z-hoodie" target="_blank">here</a><br><br>
@@ -229,7 +229,7 @@ function rasenganCatch(){
         <div class="top-bot-borders">
             Another personal experiment project during lockdown.<br><br>
             Creating <a href="https://youtu.be/vhrL7jRRcKM?si=VIEo3ezY9T2eVqwW" target="_blank"><em>the rasengan</em></a> effect introduced me to particle systems and keyframing in After Effects.<br><br>
-            Premiere Pro was used to mask in my clone, green screen the smoke and compile the sound.<br><br>
+            Premiere Pro was used to mask in my clone, green screen the smoke and compose the sound.<br><br>
             Inspired by <em>Naruto</em>.
         </div>
     `;
@@ -277,7 +277,7 @@ function mobileControl(){
         <video controls loop autoplay poster="images/thumbnails/mobile-thumbnail.png" aria-label="A code project showcase of myself going through the apps of a virtual phone I created using HTML, CSS and JavaScript" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/misc/mobileControlProj.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>HTML, CSS, JavaScript</em><br><br>
         <div class="top-bot-borders">
-            <em>To experience this project fully, please click <a target="_blank" href="https://mkt883.github.io/ma2013-mobile-control/">here</a>.</em>
+            <em>To experience this project fully, please click <a target="_blank" href="https://mkt883.github.io/ma2013-mobile-control/">here</a>.</em><br><br>
             Project investigating control as an interface and how the phone controls.<br><br>
             I used this project to improve my JavaScript skills.<br><br>
             Also practicing mobile app design.

@@ -40,8 +40,8 @@ function ktok(){
         <div class="top-bot-borders">
             Virtual production project.<br><br>
             Recreation of the <a href="https://www.villaplusturkey.com/blog/kaunos-tombs-of-the-kings" target="_blank">Kaunos Tomb of Kings in Dalyan Turkey</a>.<br><br>
-            Practicing optimisation, landscaping skills and foliage, use of ultra dynamic sky and Quixel Bridge (FAB) megascan assets.<br><br>
-            Also practicing use of cameras in Unreal.<br><br>
+            Landscaping, foliage, Ultra Dynamic Sky plug in and Quixel Bridge (FAB) megascan assets all used to put this together.<br><br>
+            Optimization and use of cameras done in Unreal Engine.<br><br>
             Blender used for the tomb faces.<br><br>
             DaVinci Resolve used to for the sounds.
         </div>
@@ -59,9 +59,9 @@ function battleland(){
         <strong>Using:</strong> <em>Unreal Engine, DaVinci Resolve</em><br><br>
         <div class="top-bot-borders">
             Virtual production island project.<br><br>
-            Practicing texture painting, fantastical landscape design and using plug-ins.<br><br>
+            Texture painting, fantastical landscape design and use of plug-ins donein Unreal Engine.<br><br>
             Using megascans from Quixel Bridge.<br><br>
-            DaVinci Resolve was used for the sounds.<br><br>
+            DaVinci Resolve used for the sounds.<br><br>
             Inspired by <em>One Piece</em>.
         </div>
     `;
@@ -80,8 +80,8 @@ function questOfPatrick(){
         <br>
         <strong>Using:</strong> <em>Clip Studio Paint, Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
-            This was a secret santa project for my friend.<br><br>
-            This design was for an album cover and t-shirt back graphic.<br><br>
+            Created as secret santa project for my friend.<br><br>
+            Used as an album cover and t-shirt back graphic.<br><br>
             Drawn by me in Clip Studio Paint using a <strong>Huion drawing tablet</strong>.<br><br>
             Photoshop/Photopea was used for manipulating the text.
         </div>
@@ -119,7 +119,7 @@ function fairlady(){
         <br>
         <strong>Using:</strong> <em>Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
-            A clothing graphic sold to <strong>ZocietyEU</strong>.<br><br>
+            A clothing graphic created for and sold to <strong>ZocietyEU</strong>.<br><br>
             <strong>You can buy here:</strong><br>
             T-Shirt: <a href="https://zocietyeu.com/products/fairlady-350z" target="_blank">here</a><br>
             Hoodie: <a href="https://zocietyeu.com/products/fairlady-350z-hoodie" target="_blank">here</a><br><br>
@@ -140,7 +140,7 @@ function stc(){
         <strong>Using:</strong> <em>Unity, Photoshop</em><br><br>
         <div class="top-bot-borders">
             Personal platformer game project.<br><br>
-            Practcing Unity game engine and C#.<br><br>
+            Using Unity game engine and C#.<br><br>
             Also working on tilemap creation and level design.<br><br>
             Photoshop used to create the visual assets for the game.
         </div>
@@ -156,8 +156,9 @@ function odileOddete(){
         <br><br>
         <strong>Using:</strong> <em>Unity, Clip Studio Paint, Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
-            Rhythm game practice project.<br><br>
+            Rhythm game project.<br><br>
             Clip Studio Paint used to draw all of the artwork for the game using digital Huion drawing tablet.<br><br>
+            Coded with C# in Unity game engine.<br><br>
             Inspired by <a href="https://africa.si.edu/exhibits/shonibare/odette.html">Yinka Shonibare's <em>Odile Odette</em> pieces.</a>
         </div>
     `;
@@ -173,7 +174,7 @@ function quickdraw(){
         <strong>Using:</strong> <em>JavaScript (p5.js), Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
             Small game project<br><br>
-            Working on timeout functions and coding outside of a game engine.<br><br>
+            Coding outside of a game engine.<br><br>
             Photoshop/Photopea used to create all the artwork for the game.<br><br>
             Music created using an online beat maker.<br><br>
             Coded using the JavaScript library: <em>p5.js</em>.
@@ -194,7 +195,7 @@ function umbrellaWarrior(){
             <strong>My Role:</strong> Coding the player movement, combining everyones code, designing the main character, enemy sprite and the 2nd level assets, level design for all but the 3rd level.<br><br>
             Practicing tile mapping and leading group coding work.<br><br>
             Used Photoshop/Photopea to create all the artwork for the game.<br><br>
-            The game had to be coded using the JavaScript library: <em>p5.js</em>.
+            Coded using the JavaScript library: <em>p5.js</em>.
         </div>
     `;
 }
@@ -210,8 +211,7 @@ function waterBend(){
         <br><br>
         <strong>Using:</strong> <em>After Effects, Premiere Pro</em><br><br>
         <div class="top-bot-borders">
-            Personal experiment project during lockdown, to teach myself After Effects and Premiere Pro.<br><br>
-            Practice with my knowledge of animation principles.<br><br>
+            Personal project during lockdown, to teach myself After Effects and Premiere Pro.<br><br>
             Exploring After Effects e.g. creating the water object, particle systems and the mercury effect.
             Premiere Pro was used to compile the sound.<br><br>
             Inspired by <a href="https://www.youtube.com/watch?v=qCUVwTcx7TE" target="_blank"><em>Avatar: the Last Airbender</em></a>.
@@ -227,8 +227,8 @@ function rasenganCatch(){
         <video controls loop autoplay poster="images/thumbnails/rsc-thumbnail.png" aria-label="A VFX video inspired by the anime Naruto where I play catch with my clone" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Rasengan Catch with Shadow Clone.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>After Effects, Premiere Pro</em><br><br>
         <div class="top-bot-borders">
-            Another personal experiment project during lockdown.<br><br>
-            Creating <a href="https://youtu.be/vhrL7jRRcKM?si=VIEo3ezY9T2eVqwW" target="_blank"><em>the rasengan</em></a> effect introduced me to particle systems and keyframing in After Effects.<br><br>
+            Another project during lockdown.<br><br>
+            Creating <a href="https://youtu.be/vhrL7jRRcKM?si=VIEo3ezY9T2eVqwW" target="_blank"><em>the rasengan</em></a> effect using particle systems and keyframing done in After Effects.<br><br>
             Premiere Pro was used to mask in my clone, green screen the smoke and compose the sound.<br><br>
             Inspired by <em>Naruto</em>.
         </div>
@@ -244,9 +244,9 @@ function roomTornado(){
         <br><br><strong>Using:</strong> <em>After Effects, DaVinci Resolve</em><br><br>
         <div class="top-bot-borders">
             Lockdown project.<br><br>
-            After Effects particle systems used to create the tornado and flame effects.<br><br>
+            After Effects particle systems used to create the tornado and flame effect.<br><br>
             Working with the lightning effect.<br><br>
-            Practicing masking and key framing ability in DaVinci Resolve to put together the background elements.<br><br>
+            Masking and key framing in DaVinci Resolve.<br><br>
             Also using DaVinci Resolve <emProto</em> plug-in and put together the sounds.
         </div>
     `;
@@ -261,7 +261,7 @@ function tenetPencil(){
         <br><br><strong>Using:</strong> <em>DaVinci Resolve, Blender</em><br><br>
         <div class="top-bot-borders">
             Another lockdown project.<br><br>
-            Introduced me to Blender animations.<br><br>
+            Blender used to animate the pencil.<br><br>
             DaVinci Resolve used for the sound and to further edit the video.<br><br>
         </div>
     `;
@@ -279,8 +279,6 @@ function mobileControl(){
         <div class="top-bot-borders">
             <em>To experience this project fully, please click <a target="_blank" href="https://mkt883.github.io/ma2013-mobile-control/">here</a>.</em><br><br>
             Project investigating control as an interface and how the phone controls.<br><br>
-            I used this project to improve my JavaScript skills.<br><br>
-            Also practicing mobile app design.
         </div>
     `;
 }

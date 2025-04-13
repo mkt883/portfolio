@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 /*              SIDE BAR STYLING               */
 #side-bar{
     height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -53,7 +57,7 @@
 /*              MAIN BODY STYLING               */
 
 #main{
-  width: 100vw;
+  width: 100%;
   background: #fff;
   margin-left: 160px; /* Same as the width of the sidebar */
   padding: 0px 10px;
@@ -116,8 +120,8 @@
 
 /*          POP UP STYLING            */
 #pop-up-bg{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 
     display: flex;
     z-index: 100;
@@ -167,7 +171,7 @@
     /* height: 20px; */
     display: flex;
     justify-content: right;
-    background: black;
+    /* background: black; */
     z-index: 1;
     position: absolute;
   }
@@ -375,4 +379,28 @@ a:active {
     }
 a:visited {
     color: #00aaff;
+}
+
+#mobile-logo{
+    display: none;
+}
+
+#mobile-ver{
+    display: none;
+}
+
+#filter-sidebar{
+    height: 100%; 
+    width: 500px;
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    right: 0;
+    background-color: #fff; 
+    border-left: solid 1px #11111120;
+    overflow-x: hidden; 
+    padding-top: 2rem;
+    filter: drop-shadow(100px 10px 40px rgba(0, 0, 0, 0.082));
+
+    animation: fadeIn ease .5s;
 }

@@ -19,7 +19,12 @@ function dropDown() {
 // Load content
 function allContent(){
   let main = document.getElementById("main");
-    main.innerHTML = `<div id="top-bar">
+    main.innerHTML = `
+    <div id="mobile-ver">
+                <img onclick="displaySideBar()" src="images/logo/portfolioLogo_1.png" height="50px">
+                <button onclick="addFilterOptions()" class="mobile-dropbtn">≡</button>
+            </div>
+    <div id="top-bar">
     <div class="filter">
         <button onclick="dropDown()" class="dropbtn">≡</button>
         <div id="worksFilter" class="filter-content">
@@ -51,7 +56,12 @@ document.querySelector('footer').style = 'margin-top: auto;'
 }
 function vpContent(){
   let main = document.getElementById("main");
-    main.innerHTML = `<div id="top-bar">
+    main.innerHTML = `
+    <div id="mobile-ver">
+                <img onclick="displaySideBar()" src="images/logo/portfolioLogo_1.png" height="50px">
+                <button onclick="addFilterOptions()" class="mobile-dropbtn">≡</button>
+            </div>
+    <div id="top-bar">
     <div class="filter">
         <button onclick="dropDown()" class="dropbtn">≡</button>
         <div id="worksFilter" class="filter-content">
@@ -71,7 +81,12 @@ document.querySelector('footer').style = 'margin-top: auto;'
 }
 function gdContent(){
   let main = document.getElementById("main");
-    main.innerHTML = `<div id="top-bar">
+    main.innerHTML = `
+    <div id="mobile-ver">
+                <img onclick="displaySideBar()" src="images/logo/portfolioLogo_1.png" height="50px">
+                <button onclick="addFilterOptions()" class="mobile-dropbtn">≡</button>
+            </div>
+    <div id="top-bar">
     <div class="filter">
         <button onclick="dropDown()" class="dropbtn">≡</button>
         <div id="worksFilter" class="filter-content">
@@ -92,7 +107,12 @@ document.querySelector('footer').style = 'margin-top: auto;'
 }
 function gamContent(){
   let main = document.getElementById("main");
-    main.innerHTML = `<div id="top-bar">
+    main.innerHTML = `
+    <div id="mobile-ver">
+                <img onclick="displaySideBar()" src="images/logo/portfolioLogo_1.png" height="50px">
+                <button onclick="addFilterOptions()" class="mobile-dropbtn">≡</button>
+            </div>
+    <div id="top-bar">
     <div class="filter">
         <button onclick="dropDown()" class="dropbtn">≡</button>
         <div id="worksFilter" class="filter-content">
@@ -113,7 +133,12 @@ document.querySelector('footer').style = 'margin-top: auto;'
 }
 function vidContent(){
   let main = document.getElementById("main");
-    main.innerHTML = `<div id="top-bar">
+    main.innerHTML = `
+    <div id="mobile-ver">
+                <img onclick="displaySideBar()" src="images/logo/portfolioLogo_1.png" height="50px">
+                <button onclick="addFilterOptions()" class="mobile-dropbtn">≡</button>
+            </div>
+    <div id="top-bar">
     <div class="filter">
         <button onclick="dropDown()" class="dropbtn">≡</button>
         <div id="worksFilter" class="filter-content">
@@ -135,7 +160,12 @@ document.querySelector('footer').style = 'margin-top: auto;'
 }
 function miscContent(){
   let main = document.getElementById("main");
-    main.innerHTML = `<div id="top-bar">
+    main.innerHTML = `
+    <div id="mobile-ver">
+                <img onclick="displaySideBar()" src="images/logo/portfolioLogo_1.png" height="50px">
+                <button onclick="addFilterOptions()" class="mobile-dropbtn">≡</button>
+            </div>
+    <div id="top-bar">
     <div class="filter">
         <button onclick="dropDown()" class="dropbtn">≡</button>
         <div id="worksFilter" class="filter-content">

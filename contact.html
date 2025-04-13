@@ -3,11 +3,57 @@
     <head lang="en">
         <link rel="icon" type="image/x-icon" href="images/logo/portfolioFavicon.png">
         <link rel="stylesheet" href="style.css">
+        <script src="mobileVer.js"></script>
         <title>Contact Me</title>
         <meta charset="UTF-8"/>
         <meta name="author" content="Mark T-C">
         <meta name="keywords" content="graphics, video, virtual production, photoshop, graphic design">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+    <style>
+        @media only screen and (max-width: 600px) {
+            #main-info-pages{
+                margin-left: 1rem;
+            }
+            #side-bar{
+                display: none;
+                width: 340px;
+                overflow-y: hidden;                
+                flex-direction: column;
+                /* align-items: center; */
+                padding-top: 2rem;
+                padding-left: 4rem;
+                filter: drop-shadow(100px 10px 40px rgba(0, 0, 0, 0.082));
+
+                animation: fadeIn ease .5s;
+            }
+            #mobile-ver{
+                display: block;
+                width: 92vw;
+                padding: 15px 0;
+            }
+            #logo{
+                width: 200px;
+                padding-bottom: 0;
+            }
+            #socials{
+                height: auto;
+                /* margin-right: 10rem; */
+
+            }
+            .social-icon {
+                height: 3rem;
+            }
+            #side-bar-text{
+                height: auto;
+                font-size: 30px;
+            }
+
+            footer {
+                /* bottom: auto; */
+            }
+        }
+    </style>
     <body>
         <div id="side-bar">
             <a href="index.html"><img id="logo" alt="The website logo" src="images/logo/portfolioLogo_1.png"></a><br><br><br>
@@ -20,6 +66,9 @@
                 <a href="about.html">About</a><br>
                 <a href="contact.html" style="color: #111; opacity: 1;">Contact</a><br>
             </div>
+        </div>
+        <div id="mobile-ver">
+            <img onclick="displaySideBar()" src="images/logo/portfolioLogo_1.png" height="70px">
         </div>
         <div id="main-info-pages" style="color: #111;">
             <h1>Contact</h1>

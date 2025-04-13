@@ -5,11 +5,115 @@
         <link rel="icon" type="image/x-icon" href="images/logo/portfolioFavicon.png">
         <script src="filterDropdown.js"></script>
         <script src="popups.js"></script>
+        <script src="mobileVer.js"></script>
         <title>Mark's Portfolio</title>
         <meta charset="UTF-8"/>
         <meta name="author" content="Mark T-C">
         <meta name="keywords" content="graphics, video, virtual production, photoshop, graphic design">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+    <style>
+        @media only screen and (max-width: 600px) {
+            #main{
+                display: flex;
+                flex-direction: column;
+                margin-left: 0;
+                overflow-x: hidden;
+            }
+            #top-bar{
+                display: none;
+            }
+            .main-body-post{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 380px;
+                /* max-width: 380px; */
+                /* min-width: 200px; */
+                padding: 0;
+            }
+            .main-body-post > p{
+                padding-bottom: 10px;
+            }
+            #side-bar{
+                display: none;
+                width: 340px;
+                overflow-y: hidden;                
+                flex-direction: column;
+                /* align-items: center; */
+                padding-top: 2rem;
+                padding-left: 4rem;
+                filter: drop-shadow(100px 10px 40px rgba(0, 0, 0, 0.082));
+
+                animation: fadeIn ease .5s;
+            }
+            #logo{
+                width: 200px;
+                padding-bottom: 0;
+            }
+            #socials{
+                height: auto;
+                /* margin-right: 10rem; */
+
+            }
+            .social-icon {
+                height: 3rem;
+            }
+            #side-bar-text{
+                height: auto;
+                font-size: 30px;
+            }
+            .dropbtn{
+                /* display: none; */
+                position: auto;
+            }
+            #mobile-ver{
+                width: 92vw;
+                padding: 15px 0;
+                position: sticky;
+                top: 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .mobile-dropbtn {
+                /* position: fixed; */
+                background-color: #111111;
+                color: #fff;
+                /* padding: 10px; */
+                font-size: 30px;
+                border: none;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 40px;
+                height: 40px;
+                border-radius: 50px;
+                filter: drop-shadow(8px 8px 4px rgba(0, 0, 0, 0.082));
+            }
+
+            #pop-up-bg{
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+            }
+            .pop-up{
+                height: auto;
+                width: 300px;
+            }
+            #mobileFilterDivs{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 30px;
+                
+            }
+            #mobileFilterDivs > a{
+                color: #111;
+                padding: 30px;
+            }
+        }
+    </style>
     <body>
         <div id="side-bar">
             <a href="index.html"><img id="logo" alt="The website logo" src="images/logo/portfolioLogo_1.png"></a><br><br><br>
@@ -24,6 +128,10 @@
             </div>
         </div>
         <div id="main">
+            <div id="mobile-ver">
+                <img onclick="displaySideBar()" src="images/logo/portfolioLogo_1.png" height="50px">
+                <button onclick="addFilterOptions()" class="mobile-dropbtn">≡</button>
+            </div>
             <div id="top-bar">
                 <div class="filter">
                     <button onclick="dropDown()" class="dropbtn">≡</button>

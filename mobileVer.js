@@ -61,40 +61,13 @@ function hideSideBar2(){
     document.body.removeChild(sideBar)
 }
 
-/*
-
-height: 100%; 
-width: 160px; 
-position: fixed; 
-z-index: 1; 
-top: 0; 
-right: 0;
-background-color: #fff; 
-border-left: solid 1px #11111120;
-overflow-x: hidden; 
-padding-top: 2rem;
-filter: drop-shadow(100px 10px 40px rgba(0, 0, 0, 0.082));
-
-
-height: 100%; 
-width: 160px; 
-position: fixed; 
-z-index: 1; 
-top: 0; 
-right: 0;
-background-color: #fff; 
-border-left: solid 1px #11111120;
-overflow-x: hidden; 
-padding-top: 20px;
-
-
-#side-bar{
-    display: none;
-    width: 340px;
-    overflow-y: hidden;                
-    flex-direction: column;
-    padding-left: 4rem;
-
-}
-
-*/ 
+$(document).ready(function(){
+    var screenWidth = $(window).width();
+    // if window width is smaller than 800 remove the autoplay attribute
+    // from the video
+    if (screenWidth < 600){
+          $('video').removeAttr('autoplay');
+    } else {
+      $('video').attr('autoplay');
+    }
+});

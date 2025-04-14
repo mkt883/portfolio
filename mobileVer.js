@@ -61,13 +61,14 @@ function hideSideBar2(){
     document.body.removeChild(sideBar)
 }
 
-$(document).ready(function(){
-    var screenWidth = $(window).width();
+function removeAutoplay(){
+    let screenWidth = window.innerWidth;
+    let video = document.querySelectorAll("video")
     // if window width is smaller than 800 remove the autoplay attribute
     // from the video
     if (screenWidth < 600){
-          $('video').removeAttr('autoplay');
+          video.removeAttribute('autoplay');
     } else {
-      $('video').attr('autoplay');
+      video.setAttribute('autoplay');
     }
-});
+}

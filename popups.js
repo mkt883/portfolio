@@ -80,7 +80,7 @@ function questOfPatrick(){
         <br>
         <strong>Using:</strong> <em>Clip Studio Paint, Photoshop/Photopea</em><br><br>
         <div class="top-bot-borders">
-            Created as secret santa project for my friend.<br><br>
+            Created as secret santa project.<br><br>
             Used as an album cover and t-shirt back graphic.<br><br>
             Drawn by me in Clip Studio Paint using a <strong>Huion drawing tablet</strong>.<br><br>
             Photoshop/Photopea was used for manipulating the text.

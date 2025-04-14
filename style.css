@@ -345,7 +345,7 @@ form input, textarea {
     align-items: center;
 }
 .centerImg > video{
-    max-width: 200;
+    max-width: 200px;
 }
 .centerImg > img{
     max-height: 500px;

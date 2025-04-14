@@ -345,7 +345,7 @@ form input, textarea {
     align-items: center;
 }
 .centerImg > img{
-    /* max-height: 500px; */
+    max-height: 500px;
 }
 
 

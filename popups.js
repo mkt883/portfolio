@@ -34,9 +34,7 @@ function ktok(){
     
     popUp.innerHTML =  `
     <h1>Kaunos Tomb of Kings:</h1>
-    <div class="centerImg">
         <video controls loop autoplay poster="images/thumbnails/ktok-thumbnail.png" aria-label="A video showcasing the Kaunos Tomb of Kings in Turkey recreated in Unreal Engine 5" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/MA2807_KaunosTombOfKings.mp4" width="800px"></video>
-    </div>
         <br><br>
         <strong>Using:</strong> <em>Unreal Engine, DaVinci Resolve</em><br><br>
         <div class="top-bot-borders">

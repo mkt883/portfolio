@@ -34,7 +34,7 @@ function heistLevel(){
     
     popUp.innerHTML =  `
     <h1>The Greatest Heist</h1>
-        <video controls loop autoplay poster="images/thumbnails/ktok-thumbnail.png" aria-label="A video showcasing a museum heist created in Unreal Engine 5" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/GreatestHeist_VPWall.mp4" width="800px"></video>
+        <video controls loop autoplay poster="images/thumbnails/heist-thumbnail.png" aria-label="A video showcasing a museum heist created in Unreal Engine 5" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/GreatestHeist_VPWall.mp4" width="800px"></video>
         <br><br>
         <strong>Using:</strong> <em>Unreal Engine, DaVinci Resolve</em><br><br>
         <div class="top-bot-borders">

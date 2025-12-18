@@ -27,6 +27,27 @@ function timedClosePopUp(){
 // Individual posts
 
 // vp videos
+function heistLevel(){
+    openPopUp();
+    
+    let popUp = document.getElementById("pop-up-bg").firstChild;
+    
+    popUp.innerHTML =  `
+    <h1>The Greatest Heist</h1>
+        <video controls loop autoplay poster="images/thumbnails/ktok-thumbnail.png" aria-label="A video showcasing a museum heist created in Unreal Engine 5" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/GreatestHeist_VPWall.mp4" width="800px"></video>
+        <br><br>
+        <strong>Using:</strong> <em>Unreal Engine, DaVinci Resolve</em><br><br>
+        <div class="top-bot-borders">
+            Virtual production project.<br><br>
+            A heist inspired by Netflix's <em>Lupin</em><br><br>
+            Put together using fab (quixel bridge) megascan assets<br><br>
+            Optimization and use of cameras done in Unreal Engine.<br><br>
+            Animated character is from mixamo<br><br>
+            DaVinci Resolve used to for the sound design.
+        </div>
+    `;
+
+}
 function ktok(){
     openPopUp();
     

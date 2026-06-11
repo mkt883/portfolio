@@ -1,0 +1,21 @@
+ POP UP FORMATTING:
+ 
+ <div id="pop-up-bg" onclick="closePopUp()">
+            <div class="pop-up">
+                <!-- × align top right -->
+                <h1>Title</h1>
+                <!-- <img src=""> -->
+                <!-- <video controls src=""> -->
+                <p>Info</p>
+            </div>
+        </div>
+
+        .top-bot-borders{
+    border-top: solid rgb(208, 208, 208);
+    /* border-bottom: solid rgb(208, 208, 208); */
+    padding: 30px 30px 30px 0;
+    animation: fadeIn ease 2.5s;
+    /* font-family: 'Gill Sans'; */
+}
+
+

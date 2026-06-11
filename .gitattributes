@@ -1,1 +1,7 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+videos/demo1.mp4 filter=lfs diff=lfs merge=lfs -text
+videos/demo2.mp4 filter=lfs diff=lfs merge=lfs -text
+/images/posts/videos/Nike[[:space:]]-[[:space:]]Aura[[:space:]]Promo[[:space:]]v2.mov filter=lfs diff=lfs merge=lfs -text
+/images/posts/videos/Paliso_Vertical_video.mp4 filter=lfs diff=lfs merge=lfs -text
+images/posts/videos/showreel[[:space:]]-[[:space:]]promo2.mp4 filter=lfs diff=lfs merge=lfs -text
+/images/posts/videos/PALISO_WILLSMITH_AD_V3.mov filter=lfs diff=lfs merge=lfs -text

@@ -350,7 +350,7 @@ function nikeAura(){
     
     popUp.innerHTML =  `
     <h1>Nike - Aura:</h1>
-        <video controls loop poster="images/thumbnails/nikeaura-thumbnail.jpg" aria-label="A showreel video of tiktoks, youtube videos and instagram posts promoting the fifa world cup with snickers" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Nike-AuraPromov2.mov" width="800px"></video>
+        <video controls loop poster="images/thumbnails/nikeaura-thumbnail.jpg" aria-label="A showreel video of tiktoks, youtube videos and instagram posts promoting the fifa world cup with snickers" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Nike - Aura Promo v2.mov" width="800px"></video>
         <br><br><strong>Using:</strong> <em>DaVinci Resolve, After Effects, Premier Pro</em><br><br>
         <div class="top-bot-borders">
             Campaign purpose was to show how the world cup brings people together, using the opportunity to highlight people other than the players who make the World Cup what it is e.g. the fans, linesmen or referees <br><br>

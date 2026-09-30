@@ -36,6 +36,7 @@ function heistLevel(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>The Greatest Heist</h1>
         <video controls loop poster="images/thumbnails/heist-thumbnail.jpg" aria-label="A video showcasing a museum heist created in Unreal Engine 5" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/GreatestHeist_VPWall.mp4" width="800px"></video>
         <br><br>
@@ -57,6 +58,7 @@ function ktok(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>Kaunos Tomb of Kings:</h1>
         <video controls loop poster="images/thumbnails/ktok-thumbnail.jpg" aria-label="A video showcasing the Kaunos Tomb of Kings in Turkey recreated in Unreal Engine 5" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/MA2807_KaunosTombOfKings.mp4" width="800px"></video>
         <br><br>
@@ -77,6 +79,7 @@ function battleland(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>BATTLELAND:</h1>
         <video controls loop poster="images/thumbnails/battleland-thumbnail.jpg" aria-label="A video showcasing an supernatural war-torn, abandoned island created in Unreal Engine 5" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/vp/BATTLELAND showcase video.mp4" width="800px"></video>
         <br><br>
@@ -97,6 +100,7 @@ function questOfPatrick(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>The Quest of Patrick Star:</h1>
         <div class="centerImg">
             <img loading="lazy" style="max-height: 400px;" alt="An album cover of Patrick Star from SpongeBob falling through a galaxy" src="images/posts/graphics/TheQuestofPatrickStar.jpg">
@@ -116,6 +120,7 @@ function mayhemTeaser(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>MAYHEM Teaser:</h1>
         <div class="centerImg">
             <img loading="lazy" style="max-height: 400px;" alt="A movie teaser poster in black and white showing a hand grabbing a red planet Earth" src="images/posts/graphics/Teaser poster fin media.jpeg">
@@ -135,6 +140,7 @@ function fairlady(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>Fairlady:</h1>
         <div class="centerImg">
             <img loading="lazy" style="max-height: 400px; min-height: 200px;" alt="A t-shirt graphic print showing a woman leaning on a nissan fairlady 350z in a garage" src="images/posts/graphics/fairlady_watermarked.jpg">
@@ -158,6 +164,7 @@ function stc(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>Save The City:</h1>
         <video controls loop poster="images/thumbnails/stc-thumbnail.jpg" aria-label="A sidescroller/platformer game showcase where the protagonist is jumping across a sewer themed level" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/stc.mp4" width="800px"></video>
         <br><br>
@@ -175,6 +182,7 @@ function odileOddete(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>Odile & Odette:</h1>
         <video controls loop poster="images/thumbnails/odt-thumbnail.jpg" aria-label="A rhythm game showcase inspired by Yinka Shonibare's Odile Oddete pieces" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/OdileOdette Game showcase.mp4" width="800px"></video>
         <br><br>
@@ -192,6 +200,7 @@ function quickdraw(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>Quickdraw:</h1>
         <div class="centerImg"><video controls loop poster="images/thumbnails/qd-thumbnail.jpg" aria-label="A game called 'QUICKDRAW' showcasing a cowboy standoff" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/QUICKDRAW SHOWCASE.mp4" height="420px"></video></div>
         <br><br>
@@ -210,6 +219,7 @@ function umbrellaWarrior(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>Umbrella Warrior:</h1>
         <video controls loop poster="images/thumbnails/uw-thumbnail.jpg" aria-label="A video showcase of a ninja running around various levels defeating floating blue monsters" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/games/UMBRELLA-WARRIOR-showcase-video.mp4" width="800px"></video>
         <br><br>
@@ -230,6 +240,7 @@ function waterBend(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>Water Bending my Drink:</h1>
         <video controls loop poster="images/thumbnails/wb-thumbnail.jpg" aria-label="A VFX video of myself manipulating water like in Avatar the Last Airbender" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Water bending my drink.mp4" width="800px"></video>
         <br><br>
@@ -247,6 +258,7 @@ function rasenganCatch(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>Rasengan Catch with Shadow Clone:</h1>
         <video controls loop poster="images/thumbnails/rsc-thumbnail.jpg" aria-label="A VFX video inspired by the anime Naruto where I play catch with my clone" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Rasengan Catch with Shadow Clone.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>After Effects, Premiere Pro</em><br><br>
@@ -263,6 +275,7 @@ function roomTornado(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>Tornado in my room:</h1>
         <video controls loop poster="images/thumbnails/trndo-thumbnail.jpg" aria-label="A VFX video of myslf creating a tornado in my room" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Tornado in room.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>After Effects, DaVinci Resolve</em><br><br>
@@ -280,6 +293,7 @@ function tenetPencil(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>Tenet Pencil:</h1>
         <video controls loop poster="images/thumbnails/tnt-thumbnail.jpg" aria-label="A VFX video of a pencil moving in reverse, abstract directions like what is seen in the film Tenet" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Tenet pencil.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>DaVinci Resolve, Blender</em><br><br>
@@ -297,6 +311,7 @@ function mobileControl(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>Mobile Control:</h1>
         <video controls loop poster="images/thumbnails/mobile-thumbnail.jpg" aria-label="A code project showcase of myself going through the apps of a virtual phone I created using HTML, CSS and JavaScript" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/misc/mobileControlProj.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>HTML, CSS, JavaScript</em><br><br>
@@ -314,6 +329,7 @@ function snickersXWorldCup(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>Snickers X FIFA World Cup Campaign:</h1>
         <video controls loop poster="images/thumbnails/wcxs-thumbnail.jpeg" aria-label="A showreel video of tiktoks, youtube videos and instagram posts promoting the fifa world cup with snickers" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/showreel - promo2.mp4" width="800px"></video>
         <br><br><strong>Using:</strong> <em>DaVinci Resolve</em><br>
@@ -331,6 +347,7 @@ function paliso(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>PALISO:</h1>
         <video controls loop poster="images/thumbnails/paliso-thumbnail.jpg" aria-label="An advert demonstrating an AI Will Smith promoting a fictional AI clothing brand" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/PALISO_WILLSMITH_AD_V3.mov" width="800px"></video>
         <video controls loop poster="images/thumbnails/paliso-thumbnail.jpg" aria-label="A short form video showing people in various unatural places to promote the fictional AI brand PALISO" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Paliso_Vertical_video.mp4" width="400px"></video>
@@ -349,6 +366,7 @@ function nikeAura(){
     let popUp = document.getElementById("pop-up-bg").firstChild;
     
     popUp.innerHTML =  `
+    <button class="close-button" onclick="timedClosePopUp()">×</button>
     <h1>Nike - Aura:</h1>
         <video controls loop poster="images/thumbnails/nikeaura-thumbnail.jpg" aria-label="A showreel video of tiktoks, youtube videos and instagram posts promoting the fifa world cup with snickers" src="https://media.githubusercontent.com/media/mkt883/portfolio/main/images/posts/videos/Nike - Aura Promo v2.mov?v=b1b18f0" width="800px"></video>
         <br><br><strong>Using:</strong> <em>DaVinci Resolve, After Effects, Premier Pro</em><br><br>

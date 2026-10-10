@@ -24,20 +24,24 @@ function allContent(){
                 <img loading="lazy" onclick="displaySideBar()" src="images/logo/portfolioLogo_1.png" height="50px">
                 <button onclick="addFilterOptions()" class="mobile-dropbtn">≡</button>
             </div>
-    <div id="top-bar">
-    <div class="filter">
-        <button onclick="dropDown()" class="dropbtn">≡</button>
-        <div id="worksFilter" class="filter-content">
-          <a onclick="allContent()">All</a>
-          <a onclick="vpContent()">Virtual Production</a>
-          <a onclick="gdContent()">Graphic Design</a>
-          <a onclick="gamContent()">Games</a>
-          <a onclick="vidContent()">Video</a>
-          <a onclick="miscContent()">Misc.</a>
-        </div>
-      </div>
-</div>
-<div class="main-body-post"><video onclick="ktok()" class="main-body-post vp" muted aria-label="A video showcasing the Kaunos Tomb of Kings in Turkey recreated in Unreal Engine 5" width="800px" poster="images/thumbnails/ktok-thumbnail.jpg" preload="none"></video><p>Unreal Engine, DaVinci Resolve</p></div>
+            <div id="top-bar">
+                <div class="filter">
+                    <button onclick="dropDown()" class="dropbtn">≡</button>
+                    <div id="worksFilter" class="filter-content">
+                        <a onclick="allContent()">All</a>
+                        <a onclick="vpContent()">Virtual Production</a>
+                        <a onclick="gdContent()">Graphic Design</a>
+                        <a onclick="gamContent()">Games</a>
+                        <a onclick="vidContent()">Video</a>
+                        <a onclick="miscContent()">Misc.</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="main-body-post"><video onclick="snickersXWorldCup()" class="main-body-post vfx" muted aria-label="An image showcasing a snickers bar in front of the 2026 fifa world cup trionda ball" width="550px" poster="images/thumbnails/wcxs-thumbnail.jpeg" preload="none"></video><p>DaVinci Resolve</p></div>
+            <div class="main-body-post"><video onclick="paliso()" class="main-body-post vfx" muted aria-label="A video showcasing AI Will Smith walking through a facility and promoting a t-shirt" width="600px" poster="images/thumbnails/paliso-thumbnail.jpg" preload="none"></video><p>DaVinci Resolve, Photoshop, RunwayML</p></div>
+            <div class="main-body-post"><video onclick="nikeAura()" class="main-body-post vfx" muted aria-label="A video showcasing nike aura bag advert" width="650px" poster="images/thumbnails/nikeaura-thumbnail.jpg" preload="none"></video><p>DaVinci Resolve, After Effects, Premiere Pro</p></div>
+            <div class="main-body-post"><video onclick="heistLevel()" class="main-body-post vp" muted aria-label="A video showcasing a museum heist created in Unreal Engine 5" width="600px" poster="images/thumbnails/heist-thumbnail.jpg" preload="none"></video><p>Unreal Engine, DaVinci Resolve</p></div>
+            <div class="main-body-post"><video onclick="ktok()" class="main-body-post vp" muted aria-label="A video showcasing the Kaunos Tomb of Kings in Turkey recreated in Unreal Engine 5" width="800px" poster="images/thumbnails/ktok-thumbnail.jpg" preload="none"></video><p>Unreal Engine, DaVinci Resolve</p></div>
             <div class="main-body-post"><img loading="lazy" onclick="questOfPatrick()" class="main-body-post gd" alt="An album cover of Patrick Star from SpongeBob falling through a galaxy" src="images/posts/graphics/TheQuestofPatrickStar.jpg" width="300px"><p>Clip Studio Paint, Photoshop/Photopea</p></div>
             <div class="main-body-post"><img loading="lazy" onclick="mayhemTeaser()" class="main-body-post gd" alt="A movie teaser poster in black and white showing a hand grabbing a red planet Earth" src="images/posts/graphics/Teaser poster fin media.jpeg" width="400px"><p>Photoshop/Photopea</p></div>
             <div class="main-body-post"><video onclick="battleland()" class="main-body-post vp" muted aria-label="A video showcasing an supernatural war-torn, abandoned island created in Unreal Engine 5" width="700px" poster="images/thumbnails/battleland-thumbnail.jpg" preload="none"></video><p>Unreal Engine, DaVinci Resolve</p></div>
@@ -50,8 +54,7 @@ function allContent(){
             <div class="main-body-post"><video onclick="rasenganCatch()" muted class="main-body-post vfx" aria-label="A VFX video inspired by the anime Naruto where I play catch with my clone" width="450px" poster="images/thumbnails/rsc-thumbnail.jpg" preload="none"></video><p>After Effects, Premiere Pro</p></div>
             <div class="main-body-post"><video onclick="roomTornado()" muted class="main-body-post vfx" aria-label="A VFX video of myslf creating a tornado in my room" width="500px" poster="images/thumbnails/trndo-thumbnail.jpg" preload="none"></video><p>After Effects, DaVinci Resolve</p></div>
             <div class="main-body-post"><video onclick="tenetPencil()" muted class="main-body-post vfx" aria-label="A VFX video of a pencil moving in reverse, abstract directions like what is seen in the film Tenet" width="450px" poster="images/thumbnails/tnt-thumbnail.jpg" preload="none"></video><p>DaVinci Resolve, Blender</p></div>
-            <div class="main-body-post"><video onclick="mobileControl()" muted class="main-body-post misc" aria-label="A code project showcase of myself going through the apps of a virtual phone I created using HTML, CSS and JavaScript" width="550px" poster="images/thumbnails/mobile-thumbnail.jpg" preload="none"></video><p>HTML, CSS, JavaScript</p></div>
-`
+            <div class="main-body-post"><video onclick="mobileControl()" muted class="main-body-post misc" aria-label="A code project showcase of myself going through the apps of a virtual phone I created using HTML, CSS and JavaScript" width="550px" poster="images/thumbnails/mobile-thumbnail.jpg" preload="none"></video><p>HTML, CSS, JavaScript</p></div>`
 document.querySelector('footer').style = 'margin-top: auto;'
 }
 function vpContent(){

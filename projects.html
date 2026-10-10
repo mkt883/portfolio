@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/x-icon" href="images/logo/portfolioFavicon.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="mobileVer.js"></script>
+        <title>Projects</title>
+        <meta charset="UTF-8"/>
+        <meta name="author" content="Mark T-C">
+        <meta name="keywords" content="graphics, video, virtual production, photoshop, graphic design">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        @media only screen and (max-width: 600px) {
+            #main-info-pages{
+                margin-left: 0;
+            }
+            #side-bar{
+                display: none;
+                width: 340px;
+                overflow-y: hidden;                
+                flex-direction: column;
+                /* align-items: center; */
+                padding-top: 2rem;
+                padding-left: 4rem;
+                filter: drop-shadow(100px 10px 40px rgba(0, 0, 0, 0.082));
+
+                animation: fadeIn ease .5s;
+            }
+            #mobile-ver{
+                display: block;
+                width: 92vw;
+                padding: 15px 0;
+            }
+            #logo{
+                width: 200px;
+                padding-bottom: 0;
+            }
+            #socials{
+                height: auto;
+                /* margin-right: 10rem; */
+
+            }
+            .social-icon {
+                height: 3rem;
+            }
+            #side-bar-text{
+                height: auto;
+                font-size: 30px;
+            }
+            .about-text-cont{
+                height: auto;
+                width: auto;
+                display: block;
+                border-top: solid rgb(208, 208, 208);
+                padding: 30px;
+
+                font-size: 18px;
+
+                animation: fadeIn ease 2.5s;
+            }
+
+            .proj-cont-cont{ /* container for projecs */
+                display: flex;
+                flex-direction: column;
+                min-width: 200px;
+                height: auto;
+                flex-wrap: wrap;
+                margin-right: 55%;
+                /* overflow-x: scroll; */
+            }
+    }
+
+
+            footer {
+                bottom: auto;
+                display: flex;
+                align-items: center;
+                text-align: center;
+            }
+        
+    </style>
+    <body>
+        <div id="side-bar">
+            <a href="index.html"><img loading="lazy" id="logo" alt="The website logo" src="images/logo/portfolioLogo_1.png"></a><br><br><br>
+            <div id="socials">
+                <a href="https://www.linkedin.com/in/mark-tc/" target="_blank"><img loading="lazy" class="social-icon" alt="the LinkedIn app logo" src="images/social-media-icons/iconmonstr-linkedin-3.svg" width="auto"></a>
+                <a href="tbc.html"><img loading="lazy" class="social-icon" alt="the Instagram app logo" src="images/social-media-icons/iconmonstr-instagram-13.svg" width="auto"></a>
+            </div>
+            <div id="side-bar-text">
+                <a href="projects.html" style="color: #111; opacity: 1;">Projects</a><br>
+                <a href="works.html">Works</a><br>
+                <a href="about.html">About</a><br>
+                <a href="contact.html">Contact</a><br>
+            </div>
+        </div>
+        <div id="main-info-pages">
+            <div id="mobile-ver">
+                <img loading="lazy" onclick="displaySideBar()" src="images/logo/portfolioLogo_1.png" height="50px">
+            </div>
+            <h1>Projects</h1>
+            <br>
+            <div class="proj-text-cont">
+
+                <div class="proj-cont-cont">
+                    <a style="text-decoration: none; color: inherit;" href="worldcupxsnickers.html">
+                        <div class="project-item">
+                            <div class="proj-img-placeholder">
+                                <img src="images\thumbnails\wcxs-thumbnail.jpeg">
+                            </div>
+                            <h3>World Cup × Snickers</h3>
+                            <div class="proj-icons-div">
+                                <img class="proj-icons" src="images\program-icons\DaVinciResolveStudio_Icon.png" alt="davinci resolve icon">
+                                <img class="proj-icons" src="images\program-icons\tiktok_logo.png" alt="tiktok icon">
+                                <img class="proj-icons" src="images\program-icons\yt_logo.png" alt="youtube icon">
+                            </div>
+                            <p class="proj-attributes">Promo, Video Editing, Photography</p>
+                        </div>
+                    </a>
+
+                    <!-- <a style="text-decoration: none; color: inherit;" href="windmilltraining.html">
+                        <div class="project-item">
+                            <div class="proj-img-placeholder">
+                                <img src="images\projetcs\wm_logo_1t1.jpg">
+                            </div>
+                            <h3>Windmill Training</h3>
+                            <div class="proj-icons-div">
+                                <img class="proj-icons" src="images\program-icons\web_icon.png" alt="internet icon">
+                                <img class="proj-icons" src="images\program-icons\Photoshop_icon.png" alt="photoshop icon">
+                            </div>
+                            <p class="proj-attributes">Web Design, Graphic Design</p>
+                        </div>
+                    </a> -->
+
+                    <a style="text-decoration: none; color: inherit;" href="seizeitz.html">
+                        <div class="project-item">
+                            <div class="proj-img-placeholder">
+                                <img src="images\projetcs\seizeitz_logo_1t1.jpg">
+                            </div>
+                            <h3>SeizeItz</h3>
+                            <div class="proj-icons-div">
+                                <img class="proj-icons" src="images\program-icons\DaVinciResolveStudio_Icon.png" alt="davinci resolve icon">
+                                <img class="proj-icons" src="images\program-icons\Photoshop_icon.png" alt="photoshop icon">
+                                <img class="proj-icons" src="images\program-icons\yt_logo.png" alt="youtube icon">
+                            </div>
+                            <p class="proj-attributes">Video Editing, Graphic Design</p>
+                        </div>
+                    </a>
+
+                    <a style="text-decoration: none; color: inherit;" href="paliso.html">
+                        <div class="project-item">
+                            <div class="proj-img-placeholder">
+                                <img src="images\projetcs\paliso_logo_1t1.jpg">
+                            </div>
+                            <h3>PALISO</h3>
+                            <div class="proj-icons-div">
+                                <img class="proj-icons" src="images\program-icons\DaVinciResolveStudio_Icon.png" alt="davinci resolve icon">
+                                <img class="proj-icons" src="images\program-icons\ig_logo.png" alt="instagram icon">
+                                <img class="proj-icons" src="images\program-icons\tiktok_logo.png" alt="tiktok icon">
+                                <img class="proj-icons" src="images\program-icons\yt_logo.png" alt="youtube icon">
+                            </div>
+                            <p class="proj-attributes">Promo, Video Editing, Graphic Design</p>
+                        </div>
+                    </a>
+
+                    <!-- <div class="project-item">
+                        <div class="proj-img-placeholder">
+                            <img src="images\projetcs\wm_logo_1t1.jpg">
+                        </div>
+                        <h3>@punjab_utd_6</h3>
+                        <p class="proj-attributes">Video Editing, Graphic Design</p>
+                    </div> -->
+
+                </div>                
+            </div>
+        </div>
+        <br>
+        <br>
+        <br><br>
+        <br>
+        <br><br>
+        <br>
+        <br>
+        <footer style="margin-top: auto; width: auto;">
+            Mark T-C © 2026 - All Rights Reserved
+        </footer>
+    </body>
+</html>
+
+<!--                                       -->
+<!-- Mark T-C © 2025 - All Rights Reserved -->
+<!--                                       -->

@@ -54,6 +54,67 @@ body{
     opacity: 50%;
 }
 
+/*              LANDING PAGE STYLING              */
+#landing-main{
+  width: 100%;
+  height: 100vh;
+  /* background: #a2a0a0; */
+  background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 50%);
+  margin: 0; 
+  /* padding: 0px 10px; */
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  font-family: 'Arial', sans-serif;
+  /* animation: fadeIn ease 2s; */
+}
+
+#landing-logo{
+    width: 450px;
+    height: 450px;
+    transition: .2s;
+    /* animation: fadeIn ease 2s; */
+}
+
+.landing-button{
+    border: none;
+    background: #fff;
+    color: #111;
+    border-radius: 40px;
+    padding: 14px 30px;
+    font-family: 'Gill Sans', sans-serif; 
+    font-size: 25px;
+    font-weight: bold;
+
+    transition: 0.3s;
+    /* animation: fadeIn ease 2s; */
+}
+.landing-button:hover{
+    cursor: pointer;
+    background: #ffcf00;
+    color: black;
+}
+#landing-cont{
+    scale: 0.7;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn ease 2s;
+}
+#image-cont{
+    margin-right: 145px;
+    padding-bottom: 20px;
+}
+#image-cont > img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
 /*              MAIN BODY STYLING               */
 
 #main{
@@ -404,6 +465,53 @@ form input, textarea {
     width: auto;
     padding: 5px;
     padding-bottom: 10px;
+}
+
+.backtoprojects-button{
+    border: none;
+    background: #111;
+    color: #fff;
+    border-radius: 40px;
+    padding: 7px 15px;
+    font-family: 'Gill Sans', sans-serif; 
+    font-size: 15px;
+    font-weight: bold;
+
+    transition: 0.3s;
+    /* animation: fadeIn ease 2s; */
+}
+.backtoprojects-button:hover{
+    cursor: pointer;
+    background: #ffcf00;
+    color: black;
+}
+
+/*          SEIZEITZ         */
+.si-video-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: min(100%, 1000px);
+    overflow-x: auto;
+}
+.si-video-container iframe {
+    flex: 0 0 384px;
+    height: 216px;
+    scroll-snap-align: start;
+}
+.seizeitz-video-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: min(100%, 800px);
+    height: 500px;
+    overflow-x: auto;
+}
+.seizeitz-video-container iframe {
+    flex: 0 0 384px;
+    height: 216px;
+    scroll-snap-align: start;
 }
 
 /*          MISC.           */
